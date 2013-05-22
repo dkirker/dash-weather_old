@@ -1,4 +1,4 @@
-Dash Weather 1.2.0
+Dash Weather 1.3.0
 
 Changelog
 
