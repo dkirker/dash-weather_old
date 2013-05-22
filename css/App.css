@@ -1,0 +1,40 @@
+/*
+ *  Copyright 2012 Choorp Studios
+ */
+
+.main {
+	background-image: url("../images/app-bg.png");
+	color: #ccc;
+}
+
+.txtTitle {
+	font-size: 22px;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.txtContent {
+	font-size: 16px;
+	color: #ccc;
+	margin-bottom: 20px;
+}
+
+.popupStyle {
+	width: 350px;
+	font-size: 16px;
+}
+
+.popupTitle {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.helper-box {
+	padding: 5px;
+}
+.helper-text {
+	font-size: 15px;
+	color: #fff;
+}

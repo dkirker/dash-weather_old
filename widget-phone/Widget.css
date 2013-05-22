@@ -1,0 +1,40 @@
+/*
+ *  Copyright 2012 Choorp Studios
+ */
+
+.dashboard {
+	/*background-image: url("images/dash-bg.png");*/
+	background-color: #000;
+	color: #fff;
+	font-size: 15px;
+	padding: 3px 0 3px 0;
+}
+.widgetContainer {
+	padding: 0 3px 0 3px;
+}
+.dashContainer {
+	/*margin-left: 10px;*/
+	/*padding: 3px;*/
+}
+.dashTemp {
+	font-size: 28px;
+	margin: 0 10px 0 10px;
+}
+.dashContent {
+	/*font-size: 15px;*/
+}
+.highlow {
+	/*font-size: 15px;*/
+}
+.alignRight {
+	text-align: right;
+	padding-right: 8px;
+	/*max-width: 177px;*/
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.iconText {
+	text-align: right;
+	padding: 1px 5px 0 0;
+}

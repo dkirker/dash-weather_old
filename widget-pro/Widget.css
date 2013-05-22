@@ -1,0 +1,29 @@
+/*
+ *  Copyright 2012 Choorp Studios
+ */
+
+.dashboard {
+	background-image: url("images/dash-bg.png");
+	color: #fff;
+	padding: 10px;
+}
+.dashContainer {
+	margin-left: 10px;
+}
+.dashTemp {
+	font-size: 36px;
+	margin-left: 10px;
+}
+.dashContent {
+	font-size: 15px;
+}
+.highlow {
+	font-size: 15px;
+}
+.alignRight {
+	text-align: right;
+}
+.iconText {
+	text-align: right;
+	padding: 1px 5px 0 0;
+}

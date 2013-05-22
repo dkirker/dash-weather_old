@@ -1,0 +1,111 @@
+/*
+ *  Copyright 2012 Choorp Studios
+ */
+
+.phone-main {
+	background-image: url("../images/app-bg-phone.png");
+	background-color: #393e43;
+	color: #ccc;
+}
+
+.pane-styles {
+	/*background-image: url("../images/app-bg-phone.png");*/
+}
+
+.txtTitle {
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 10px;
+	padding: 0 10px 0 10px;
+}
+
+.txtSubTitle {
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 10px;
+	padding: 0 10px 0 10px;
+}
+
+.txtSubSubTitle {
+	font-size: 16px;
+	color: #69a8f5;
+	margin-bottom: 0px;
+	padding: 0 10px 0 10px;
+}
+
+.txtContent {
+	font-size: 16px;
+	color: #ccc;
+	margin-bottom: 20px;
+	padding: 0 10px 0 10px;
+}
+
+.txtChangelog {
+	font-size: 16px;
+	color: #ccc;
+	margin-bottom: 10px;
+	padding: 0 10px 0 10px;
+}
+
+.popupStyle {
+	width: 350px;
+	font-size: 16px;
+}
+
+.popupTitle {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.helper-box {
+	padding: 5px;
+}
+.helper-text {
+	font-size: 15px;
+	color: #fff;
+}
+
+.btn-launch {
+	margin: 0px -5px -3px -5px;
+	padding: 7px 0px 10px 0px;
+}
+
+/* Let's override some default styles */
+
+.enyo-label {
+	color: #69a8f5;
+}
+
+.enyo-group-inner > .enyo-item, .enyo-item.rounded {
+	-webkit-border-radius: 8px;
+	border-top: 1px solid rgba(125,125,125,0.3);
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	background-color: rgba(57,62,67,0.9);
+}
+
+.enyo-item {
+	border-top: 1px solid rgba(72,72,72,0);
+	border-bottom: 1px solid #393e43;
+}
+
+.enyo-popup {
+	color: #fff;
+	-webkit-border-image: url(../images/popup.png) 24 24 24 24 stretch stretch;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5) {
+	.enyo-popup {
+		-webkit-border-image: url(../images-1.5/popup.png) 36 36 36 36 stretch stretch;
+	}
+}
+
+.enyo-popup.enyo-popup-menu {
+	-webkit-border-image: url(../images/menu-background.png) 20 20 20 20 stretch stretch;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5) {
+	.enyo-popup.enyo-popup-menu {
+		-webkit-border-image: url(../images/menu-background-1.5.png) 30 30 30 30 stretch stretch;
+	}
+}

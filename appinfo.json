@@ -1,0 +1,14 @@
+{
+  "id": "com.choorp.dash-weather",
+  "version": "1.3.0",
+  "vendor": "Choorp Studios",
+  "type": "web",
+  "main": "index.html",
+  "title": "Dash Weather",
+  "icon": "icon-64.png",
+  "miniicon": "icon-mini.png",
+  "splashBackground": "images/splash-background.png",
+  "dockMode": true,
+  "uiRevision": 2,
+  "noWindow": true
+}
